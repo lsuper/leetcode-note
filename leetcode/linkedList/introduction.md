@@ -6,4 +6,4 @@
     * They can be two pointers from two ends of linked list, or two pointers with different speed when moving on the list.
 
 #### Questions
-1. [Remove Remove Duplicates from Sorted List](/leetcode/questions/remove_duplicates_from_sorted_list.md)
+1. [Remove Remove Duplicates from Sorted List](/leetcode-note/leetcode/questions/remove_duplicates_from_sorted_list.md)
