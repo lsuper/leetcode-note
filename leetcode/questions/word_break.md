@@ -18,34 +18,24 @@ class Solution:
     def wordBreak(self, s, dict):
         if len(dict) < 1:
             return False
-        self.isBreakable = [False] * len(s)
-        self.dict = dict
-        lenLst = [len(entry) for entry in dict]
-        self.maxLen = max(lenLst)
-        self.minLen = min(lenLst)
-        self.updateWordBreak(s)
-        return self.isBreakable[0]
-        
-    def updateWordBreak(self, s):
-        self.isBreakable[-1] = s[-1] in self.dict
-        if len(s) == 1:
-            return
+        isBreakable = [False] * len(s)
+        lenLst = set(map(len, dict))
         #from end to beginning
-        for index in range(len(s)-2, -1, -1):
+        for index in range(len(s)-1, -1, -1):
             #optimize point, here we can (a) check all words in dict or (b) check all valid length in s[index: index+wordLen]
             #if len(dict) < maxLen - minLen, use (a), otherwise use (b)
-            for wordLen in range(self.minLen, self.maxLen+1):
-                if index + wordLen - 1 <= len(s) - 1:
-                    if s[index:index+wordLen] in self.dict and (index+wordLen == len(s) or self.isBreakable[index + wordLen]):
-                        self.isBreakable[index] = True
+            for wordLen in lenLst:
+                if index + wordLen <= len(s):
+                    if s[index:index+wordLen] in dict and (index+wordLen == len(s) or isBreakable[index + wordLen]):
+                        isBreakable[index] = True
                         continue
-        return
-        
+        return isBreakable[0]
 ```
 ##### Note
-1. Method 1
-    * Time Complexity:
-        * Method:
+1. Bottom-up DP
+    * Time Complexity: $$O(n)$$
+    * Method
+        * `isBreakable[i]` represents whether `s[i:]` can be separated into 
 
 --------------
 
