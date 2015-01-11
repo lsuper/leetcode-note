@@ -1,6 +1,6 @@
 This book keeps all my notes and solutions for technical interview 
-questions, especially for Leetcode.
+questions, especially for [Leetcode](https://oj.leetcode.com/problemset/algorithms/).
 
-Most solutions are in Python
-
-Please, note a question may appear in different sections.
+Please note:  
+* The same question may appear in different sections.
+* All solutions are in Python 2.7
