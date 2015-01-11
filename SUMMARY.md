@@ -7,5 +7,6 @@
    * [Dynamic Programming](leetcode/linkedList/introduction.md)
        * [Word Break](leetcode/questions/word_break_ii.md)
        * [Word Break II](leetcode/questions/word_break_ii.md)
+       * Dynamic Programming
 * [Other Interview Questions](others/others.md)
 
