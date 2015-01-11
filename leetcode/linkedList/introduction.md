@@ -1,4 +1,4 @@
-# Dynamic Programming
+# Linked List
 #### Common methods
 * **Dummy Node**
     * Consider to add a dummy node at the beginning of linked list, especially when the head node may be changed.
