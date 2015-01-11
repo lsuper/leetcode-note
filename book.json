@@ -1,11 +1,11 @@
 {
     "plugins": [
         "mathjax",
-        "Disqus"
+        "disqus"
     ],
     "pluginsConfig": {
             "disqus": {
-            "shortName": "XXXXXXX"
+            "shortName": "leetcode-note"
         }
     }
 }
