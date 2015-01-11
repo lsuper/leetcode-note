@@ -3,5 +3,9 @@
         "mathjax",
         "Disqus"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+            "disqus": {
+            "shortName": "XXXXXXX"
+        }
+    }
 }
