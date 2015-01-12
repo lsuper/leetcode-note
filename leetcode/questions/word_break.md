@@ -35,7 +35,7 @@ class Solution:
 1. Bottom-up DP
     * Time Complexity: $$O(n)$$
     * Method
-        * `isBreakable[i]` represents whether `s[i:]` can be separated into 
+        * `isBreakable[i]` represents whether `s[i:]` can be separated into  a sentence. `isBreakable[i] = s[index:index+wordLen] in dict and (isBreakable[index + wordLen] or s[index:index+wordLen] is last word in sentence)`. No need to initialize the state function. 
 
 --------------
 
