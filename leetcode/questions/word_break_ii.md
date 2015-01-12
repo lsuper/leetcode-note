@@ -33,7 +33,7 @@ class Solution:
 ```
 ##### Note
 1. Bottom-up DP
-    * Time Complexity: O(n)
+    * Time Complexity: $$O(n)$$
     * Method
         * `sentences[i]` stores all sentences of `s[i:]`. `sentences[i] = [s[startIndex: startIndex + wordLen] + sentence for sentence in sentences[startIndex + wordLen] for wordLen in wordLenList]`
         * Update `sentences[i]` from end to the beginning of `s` 
