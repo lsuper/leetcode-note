@@ -1,4 +1,4 @@
-# Remove Duplicates from Sorted List 
+# Remove Duplicates from Sorted List
 ##### Problem
 Given a sorted linked list, delete all duplicates such that each element appear only once.
 
@@ -28,4 +28,4 @@ class Solution:
 ##### Note
 1. Keep the first, move to next if it is not a duplicate.
     * Time Complexity: $$O(n)$$
-        * Method:
+    * Method:

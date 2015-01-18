@@ -35,26 +35,26 @@ class Solution:
                 preReverseNode = node1
             m -= 1
             node1 = node1.next
-        
+
         while n > 0:
             n -= 1
             node2 = node2.next
-            
+
         postReverseNode = node2.next
         preReverseNode.next = node2
-        
+
         preNode = postReverseNode
         while node1 != postReverseNode:
             next = node1.next
             node1.next = preNode
             preNode = node1
             node1 = next
-            
+
         return dummyHead.next
-        
+
 ```
 ##### Note
 1. Dummy head
     * Time Complexity: $$O(n)$$
-        * Method: Since the head node may be removed, by adding a dummy head, we can simplify the whole reversing process.
-
+    * Method
+        * Since the head node may be removed, by adding a dummy head, we can simplify the whole reversing process.
