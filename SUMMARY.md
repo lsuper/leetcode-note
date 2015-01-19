@@ -9,6 +9,6 @@
    * [Dynamic Programming](leetcode/DP/introduction.md)
        * [Word Break](leetcode/questions/word_break.md)
        * [Word Break II](leetcode/questions/word_break_ii.md)
-   * [Sorting](leetcode/DP/introduction.md)
+   * [Sorting](leetcode/sorting/introduction.md)
        * [Sort List](leetcode/questions/sort_list.md)
 * [Other Interview Questions](others/others.md)
