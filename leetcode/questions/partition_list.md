@@ -34,10 +34,13 @@ class Solution:
         head = head.next
         right.next = None
         left.next = dummyRight.next
-        return dummyLeft.next
+    return dummyLeft.next
 ```
 ##### Note
 1. Two Pointers and Dummy Heads
-  * Time Complexity:$$O(n)$$
-  * Method
-    * Create
+    * Time Complexity:$$O(n)$$
+    * Method
+        * Create two dummy heads as head for left and right part
+        * Loop through list to connect node to left or right part
+        * Every node's next is changed only after `head` move to its next
+        * Quite brilliant
