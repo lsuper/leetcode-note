@@ -86,7 +86,7 @@
         * Output numbers within all the buckets in order
     * **Radix Sort**
         * Can be stable
-        * Time: LSD $$O((n+k) * d)$$
+        * Time: $$O((n+k) * d)$$
         * Sort from either least significant digit (LSD) or most significant digit (MSD)
         * LSD requires stable sorting, while MSD does not
 * Implementation for both linked list and array

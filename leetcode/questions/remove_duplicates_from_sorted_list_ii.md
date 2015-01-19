@@ -34,5 +34,5 @@ class Solution:
 1. Check next two nodes
     * Time Complexity: $$O(n)$$
     * Method
-        * Create a dummy node before head. `node` is the last unique node, `node` is connected to the next node with a new value. If there is less than two nodes after `node`, we can return the head `dummyNode.next`. Otherwise, if `node.next.val == node.next.next.val`, we know `node.next` is a new unique node, we move `node` to `node.next`. If `node.next.val != node.next.next.val`, that means `node.next` is also a duplicate, we move `node.next` until it points to the next value or reach the end of list.
+        * Create a dummy node before head. `node` is the last unique node, `node` is connected to the next node with a new value. If there is less than two nodes after `node`, we can return the head `dummyNode.next`. Otherwise `node.next.val == node.next.next.val`, we know `node.next` is a new unique node, we move `node` to `node.next`. If `node.next.val != node.next.next.val`, that means `node.next` is also a duplicate, we move `node.next` until it points to the next value or reach the end of list.
         * The trick part is to check next two nodes together.

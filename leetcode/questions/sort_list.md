@@ -126,4 +126,4 @@ class Solution:
     * To achieve constant space, we need to do a bottom-up implementation of **merge sort**
     * Use a loop to do merge or quick sort for a group of 1, 2, 4, ..., n/2 nodes each round.
     * Inside the loop do the merge each group with its neighbor group.
-    * Quick Sort cannot be implemented in bottom-up way.
+    * Quick Sort cannot be implemented in bottom-up way in constant space

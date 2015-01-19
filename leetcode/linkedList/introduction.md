@@ -12,3 +12,4 @@
 3. [Reverse Linked List List](/leetcode-note/content/leetcode/questions/remove_duplicates_from_sorted.html)
 4. [Reverse Linked List List II](/leetcode-note/content/leetcode/questions/remove_duplicates_from_sorted_ii.html)
 5. [Partition List](/leetcode-note/content/leetcode/questions/partition_list.html)
+5. [Sort List](/leetcode-note/content/leetcode/questions/sort_list.html)
