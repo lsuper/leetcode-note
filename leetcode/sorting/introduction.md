@@ -96,4 +96,6 @@
     * Stable or not
 
 #### Questions
-1.[Sort List](/leetcode-note/content/leetcode/questions/sort_list.html)
+1. [Sort List](/leetcode-note/content/leetcode/questions/sort_list.html)
+2. [Merge k Sorted Lists](/leetcode-note/content/leetcode/questions/merge_k_sorted_lists.html)
+3. [Convert Sorted List to Binary Search Tree](/leetcode-note/content/leetcode/questions/convert_sorted_list_to_binary_search_tree.html)
